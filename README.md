@@ -93,3 +93,13 @@ python freeze_e2e_cache.py \
 --num_intervals 20 \
 --random_seeds 0,1,2,3
 ```
+
+### Results
+
+| Dataset    |                 | AutoFreeze    |                  |                 | Full fine-tuning |                  | Training  Speedup |                  |
+|------------|-----------------|---------------|------------------|-----------------|------------------|------------------|-------------------|------------------|
+|            | Best  Iteration | Test Accuracy | Training Time(s) | Best  Iteration | Test Accuracy    | Training Time(s) | Freezing          | Enabling Caching |
+| AG News    | 80000           | 94.66         | 16242            | 36000           | 94.70            | 35058            | 2.16x             | 2.76x            |
+| Sogou News | 28800           | 97.4          | 9866             | 28800           | 97.48            | 15478            | 1.57x             | 1.71x            |
+|   Yelp F.  | 389988          | 68.96         | 97368            | 324990          | 68.83            | 188892           | 1.94x             | 2.12x            |
+|   IMDb     | 9163            | 93.94         | 3543             | 4165            | 93.944           | 7304             | 2.06x             | 2.41x            |
