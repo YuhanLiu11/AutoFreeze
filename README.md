@@ -13,7 +13,7 @@ This is the code for AutoFreeze, where we develop a system for adaptively freezi
 
 ### 1) Prepare the dataset & models:
 
-Please follow the original repo to prepare dataset and BERT models.
+Please follow the original repo to prepare dataset and BERT models available [here](https://github.com/xuyige/BERT4doc-Classification/blob/master/README.md).
 
 Data available at: [here](https://drive.google.com/drive/folders/1Rbi0tnvsQrsHvT_353pMdIbRwDlLhfwM).
 
